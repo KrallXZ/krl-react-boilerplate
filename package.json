@@ -1,0 +1,39 @@
+{
+  "name": "krl-react-boilerplate",
+  "version": "1.0.0",
+  "description": "Simple React Boilerplate for small and medium projects.",
+  "scripts": {
+    "start": "webpack-dev-server --history-api-fallback",
+    "start:open": "webpack-dev-server --open",
+    "build": "webpack -p --config webpack-production.config.js"
+  },
+  "author": "Karol Syta <karolsyta7@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "redux-saga": "^0.16.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.38",
+    "@babel/polyfill": "^7.0.0-beta.38",
+    "@babel/preset-env": "^7.0.0-beta.38",
+    "@babel/preset-react": "^7.0.0-beta.38",
+    "@babel/preset-stage-0": "^7.0.0-beta.38",
+    "babel-loader": "^8.0.0-beta.0",
+    "clean-webpack-plugin": "^0.1.18",
+    "css-loader": "^0.28.9",
+    "file-loader": "^1.1.6",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.20.1",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
