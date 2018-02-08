@@ -10,12 +10,12 @@ class Home extends React.Component {
   render() {
     if (this.props.items.errorMessage) {
       return this.props.items.errorMessage
-    } else {
-      const mappedItems = this.props.items.map((item, index) => (
-        <li key={index}>{item}</li>
-      ))
-      return <ul>{mappedItems}</ul>
     }
+
+    const mappedItems = this.props.items.map((item, index) => (
+      <li key={index}>{item}</li>
+    ))
+    return <ul>{mappedItems}</ul>
   }
 }
 
