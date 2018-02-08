@@ -3,7 +3,7 @@ import { dispatch } from '../store'
 
 export default function(state = {}, action) {
   switch (action.type) {
-    case 'DEFAULT_ACTION':
+    case DEFAULT_ACTION:
       return {...state, someData: action.someData}
     default:
       return state

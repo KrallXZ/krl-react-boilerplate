@@ -3,10 +3,10 @@ import { Switch, Route } from 'react-router-dom'
 
 import './stylesheets/index.scss'
 
-import Home from './views/home'
+import Home from './views/Home'
 
-import Header from './components/header'
-import Footer from './components/footer'
+import Header from './components/Header'
+import Footer from './components/Footer'
 
 export default class App extends React.Component {
   render() {
