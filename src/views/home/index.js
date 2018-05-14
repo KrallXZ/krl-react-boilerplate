@@ -3,11 +3,11 @@ import { connect } from 'react-redux'
 import { boundItemsLoadRequest } from '../../reducers/items'
 
 class Home extends React.Component {
-  componentWillMount() {
+  componentWillMount () {
     boundItemsLoadRequest()
   }
 
-  render() {
+  render () {
     if (this.props.items.errorMessage) {
       return this.props.items.errorMessage
     }

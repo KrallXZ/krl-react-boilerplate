@@ -4,6 +4,7 @@ const HtmlWebPackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   entry: ['@babel/polyfill', path.resolve(__dirname, 'src') + '/index.js'],
+  mode: 'development',
   output: {
     path: path.resolve(__dirname, 'dev'),
     filename: 'bundle.js'
